@@ -1,14 +1,16 @@
 {
   "name": "aslock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Async lock",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "prepublish": "./ci/build.js && ./ci/browser.js"
   },
-  "repository": "okunishinishi/node-aslock",
-  "keywords": [],
+  "repository": "a-labo/aslock",
+  "keywords": [
+    "locking"
+  ],
   "author": {
     "name": "Taka Okunishi",
     "email": "okunishitaka.com@gmail.com",
@@ -16,10 +18,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/okunishinishi/node-aslock/issues"
+    "url": "https://github.com/a-labo/aslock/issues"
   },
-  "homepage": "https://github.com/okunishinishi/node-aslock#readme",
+  "homepage": "https://github.com/a-labo/aslock#readme",
   "dependencies": {
+    "ape-compiling": "^4.3.3",
     "asleep": "^1.0.3",
     "co": "^4.6.0",
     "defaults": "^1.0.3",
