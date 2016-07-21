@@ -9,12 +9,10 @@
 process.chdir(`${__dirname}/..`)
 
 const { runTasks } = require('ape-tasking')
-const { compileToEs5 } = require('ape-compiling')
-const filedel = require('filedel')
+const abrowserify = require('abrowserify')
 
 runTasks('browser', [
-  () => filedel('sims/browser/**/*.js'),
-  () => compileToEs5('**/*.js', {
+  () => abrowserify('**/*.js', {
     cwd: 'lib',
     out: 'sims/browser'
   })
