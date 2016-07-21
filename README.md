@@ -55,6 +55,7 @@ Async lock
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -68,6 +69,7 @@ $ npm install aslock --save
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -124,6 +126,8 @@ This software is released under the [MIT License](https://github.com/a-labo/aslo
 Links
 ------
 
++ [a-labo][a_labo_url]
 
+[a_labo_url]: https://github.com/a-labo
 
 <!-- Links End -->

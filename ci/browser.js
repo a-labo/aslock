@@ -9,10 +9,10 @@
 process.chdir(`${__dirname}/..`)
 
 const { runTasks } = require('ape-tasking')
-const abrowserify = require('abrowserify')
+const ababelES2015 = require('ababel-es2015')
 
 runTasks('browser', [
-  () => abrowserify('**/*.js', {
+  () => ababelES2015('**/*.js', {
     cwd: 'lib',
     out: 'sims/browser'
   })
