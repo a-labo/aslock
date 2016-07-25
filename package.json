@@ -1,6 +1,6 @@
 {
   "name": "aslock",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Async lock",
   "main": "lib",
   "browser": "shim/browser",
